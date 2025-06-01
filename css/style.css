@@ -54,3 +54,27 @@ h1, h2, h3, h4 {
 #about {
     padding: 50px 0px;
 }
+
+/* sekcja działania */
+#actions{
+    background-color: var(--my-color2);
+    color: var(--my-color1);
+    padding: 30px 0px;
+}
+
+#actions i {
+    font-size: 3em;
+}
+
+#actions p {
+    font-size: 1.6em;
+}
+
+.wave-top{
+    background: url("../img/top.svg") center center no-repeat;
+    background-size: cover;
+    height: 100px;
+}
+.obrot{
+    transform: rotate(180deg);
+}
