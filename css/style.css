@@ -1,0 +1,56 @@
+/* zmienne globalne */
+:root {
+    --my-color1: #5225bc;
+    --my-color2: #f0c53a;
+    --my-color3: #171717;
+
+    --my-color18: #160a33;
+
+
+    --my-font-header: Oswald, sans-serif;
+
+    --my-trnsition-fast: 0.3s;
+    --my-trnsition-medium: 0.6s;
+    --my-trnsition-slow: 1s;
+
+}
+
+body{
+    margin:0;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.row{
+    margin-right:0;
+    margin-left:0;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--my-font-header);
+}
+
+/* sekcja hero */
+#hero {
+    background-color: var(--my-color1);
+    color: var(--my-color2);
+    padding: 50px 10px;
+}
+#hero h1, #hero h2 {
+    text-shadow: 2px 2px 4px var(--my-color18);
+}
+#hero .btn-warning {
+   font-weight: 600;
+   transition: all var(--my-trnsition-medium) ease;
+}
+#hero .btn-warning:hover {
+   transform: scale(1.05);
+   box-shadow: 5px 5px 10px var(--my-color18);
+}
+
+/* sekcja kim jesteśmy */
+#about {
+    padding: 50px 0px;
+}
